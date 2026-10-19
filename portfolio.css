@@ -79,11 +79,12 @@ body{
 .vertical-line {
     margin-top: 10px;
     border-left: 3px solid #F08DB7;
-    height:200%;
+    height: 167.9%;
     position: absolute;
     left: 130px;
     top: 12%;
     display: block;
+    
 }
 
 .content{
@@ -667,25 +668,25 @@ body{
     backdrop-filter: blur(10px);
     position: absolute;
     right: 0;
-    width: 92%;
-    height: 65.5%;
+    width: 92.1%;
+    height: 33%;
     margin-right: 0;
     margin-top: 1354px;
     border-bottom: 1.5px solid #F08DB7;
 }
 
-.boxes11{
+.matter1{
     padding-left: 140px;
-    padding-top: 30px;
+    padding-top: 70px;
 
 }
 
-.text-box3{
+.matter-matter1{
     display: flex;
-    gap: 10px;
+    gap: 70px;
 }
 
-.box11{
+.matter-box1{
     display: flex;
     height: 150px;
     width: 230px;
@@ -694,6 +695,78 @@ body{
     background: rgba(10, 10, 20, 0.50);
 }
 
-.box-box1{
+.matter-content1 i{
     color: #F08DB7;
+    font-size: 22px;
+    margin-top: 13px;
+    margin-left: 12px;
+    background: rgba(10, 10, 20, 0.50);
+    border: 1px solid rgba(108, 19, 68, 0.5);
+    width: 45px;
+    height: 35px;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+
+.matter-box2 h3{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+
+.matter-box2 p{
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.matter-matter-matter1{
+    display: flex;
+    gap: 20px;
+}
+
+.fa-arrow-left{
+    font-size: 30px;
+    color: #fc5fa1;
+    margin-top: 60px;
+}
+
+.bottom{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 182%;
+    left: 50%;
+    text-align: center;
+    backdrop-filter: blur(2px);
+}
+
+.nav-box1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-box1,
+.bottom-box3{
+    font-size: 50px;
+    color: #97184d;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.bottom-box2{
+    height: 25px;
+    width: 25px;
+    border: 5px solid #97184d;
+    border-radius: 50%;
+    margin-top: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 45px #ff69b4,
+    0 0 45px #aa1961,
+    0 0 75px rgba(66, 17, 41, 0.9),
+    0 0 85px rgba(151, 16, 88, 0.7),
+    inset 0 0 13px #eb529e;
 }
