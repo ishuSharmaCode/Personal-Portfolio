@@ -75,7 +75,7 @@ body{
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    animation: bodyReveal 5s ease-in-out;
+    animation: bodyReveal 4s ease-in-out;
 }
 
 @keyframes bodyReveal {
