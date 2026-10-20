@@ -79,7 +79,7 @@ body{
 .vertical-line {
     margin-top: 10px;
     border-left: 3px solid #aa1961;
-    height: 167.9%;
+    height: 165.8%;
     position: absolute;
     left: 130px;
     top: 12%;
@@ -671,9 +671,9 @@ body{
     position: absolute;
     right: 0;
     width: 92.1%;
-    height: 33.3%;
+    height: 31%;
     margin-right: 0;
-    margin-top: 1391.7px;
+    margin-top: 1391.5px;
     border-bottom: 2px solid #aa1961;
 }
 
