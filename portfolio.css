@@ -75,7 +75,18 @@ body{
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    animation: bodyReveal 4s ease-in-out;
+}
+
+
+.vertical-line {
+    margin-top: 10px;
+    border-left: 3px solid #aa1961;
+    height: 165.8%;
+    position: absolute;
+    left: 130px;
+    top: 12%;
+    display: block;
+    animation: bodyReveal 7s ease-in-out;
 }
 
 @keyframes bodyReveal {
@@ -86,16 +97,6 @@ body{
     to {
         opacity: 1;
     }
-}
-
-.vertical-line {
-    margin-top: 10px;
-    border-left: 3px solid #aa1961;
-    height: 165.8%;
-    position: absolute;
-    left: 130px;
-    top: 12%;
-    display: block;
 }
 
 .content{
@@ -110,6 +111,17 @@ body{
     margin-right: 0;
     margin-top: 47px;
     border-bottom: 1.5px solid #f3278d;
+    animation: bodyReveal 2s ease-in-out;
+}
+
+@keyframes bodyReveal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .text-box{
@@ -248,6 +260,17 @@ body{
     margin-right: 0;
     margin-top: 436px;
     border-bottom: 1.5px solid #f3278d;
+    animation: bodyReveal 4s ease-in-out;
+}
+
+@keyframes bodyReveal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .text-box1{
@@ -388,6 +411,17 @@ body{
     margin-right: 0;
     margin-top: 713.5px;
     border-bottom: 1.5px solid #aa1961;
+    animation: bodyReveal 6s ease-in-out;
+}
+
+@keyframes bodyReveal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .boxes4{
@@ -687,6 +721,17 @@ body{
     margin-right: 0;
     margin-top: 1350.5px;
     border-bottom: 2px solid #aa1961;
+    animation: bodyReveal 6s ease-in-out;
+}
+
+@keyframes bodyReveal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .matter1{
@@ -756,6 +801,17 @@ body{
     left: 47%;
     text-align: center;
     backdrop-filter: blur(2px);
+    animation: bodyReveal 5s ease-in-out;
+}
+
+@keyframes bodyReveal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .nav-box1{
@@ -791,6 +847,17 @@ footer{
     position: absolute;
     top: 190%;
     margin-bottom: 20px;
+    animation: bodyReveal 7s ease-in-out;
+}
+
+@keyframes bodyReveal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .footer-box{
@@ -807,6 +874,17 @@ footer{
     inset 0 0 50px #eb529e;
     display: flex;
     justify-content: center;
+    animation: bodyReveal 5s ease-in-out;
+}
+
+@keyframes bodyReveal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .footer-boxes{
