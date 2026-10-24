@@ -36,11 +36,6 @@ body{
     width: 0;
     display: flex;
 }
-/* =========================================
-   PORTFOLIO → FULL NAVBAR ANIMATION
-   ========================================= */
-
-/* Navbar starting me sirf Portfolio jitna */
 .navbar {
     width: 150px;
     overflow: hidden;
@@ -49,7 +44,6 @@ body{
 }
 
 
-/* Portfolio starting me LEFT side se aaye */
 .nav {
     opacity: 0;
 
@@ -60,8 +54,6 @@ body{
     animation: portfolioDrop 0.8s ease forwards;
 }
 
-
-/* Navigation initially hidden */
 #navigation {
     opacity: 0;
 
@@ -70,8 +62,6 @@ body{
     animation: navigationShow 0.7s ease 1.5s forwards;
 }
 
-
-/* Search icon initially hidden */
 .logo {
     opacity: 0;
 
@@ -79,9 +69,6 @@ body{
 
     animation: searchShow 0.6s ease 1.8s forwards;
 }
-/* =========================================
-   PORTFOLIO SIDE SE AAYEGA
-   ========================================= */
 
 @keyframes portfolioCome {
 
@@ -96,11 +83,6 @@ body{
     }
 }
 
-
-/* =========================================
-   NAVBAR LEFT + RIGHT EXPAND HOGA
-   ========================================= */
-
 @keyframes navbarExpand {
 
     0% {
@@ -111,11 +93,6 @@ body{
         width: 1100px;
     }
 }
-
-
-/* =========================================
-   NAVIGATION LINKS APPEAR
-   ========================================= */
 
 @keyframes navigationShow {
 
@@ -129,11 +106,6 @@ body{
         transform: translateX(0);
     }
 }
-
-
-/* =========================================
-   SEARCH ICON
-   ========================================= */
 
 @keyframes searchShow {
 
@@ -283,6 +255,7 @@ body{
     text-align: center;
     padding-top: 25px;
     text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .button2{
@@ -298,6 +271,7 @@ body{
     text-align: center;
     padding-top: 25px;
     text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .icons{
     display: flex;
@@ -361,5 +335,66 @@ body{
 
     to {
         clip-path: inset(0 0 0 0);
+    }
+}
+
+
+/* 13-inch screen adjustments */
+@media screen and (min-width: 601px) and (max-width: 1366px) {
+
+    .box{
+        margin-left: 90px;
+        height: 230px;
+
+    }
+
+    .buttons{
+        margin-top: 0;
+    }
+
+    .box .text3 {
+        font-size: 17px;
+    }
+
+    .box .text4 {
+        font-size: 56px;
+        width: 330px;
+    }
+
+    .box .text6 {
+        font-size: 32px;
+    }
+
+    .box .text7 {
+        width: 160px;
+    }
+
+    .box .text8 {
+        font-size: 21px;
+    }
+
+    .button1 {
+        font-size: 19px;
+        width: 250px;
+        height: 45px;
+        padding-top: 11px;
+        box-sizing: border-box;
+    }
+
+    .button2 {
+        font-size: 19px;
+        width: 250px;
+        height: 45px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .icons i {
+        font-size: 25px;
+    }
+
+    .icons {
+        gap: 18px;
+        margin-top: 30px;
     }
 }
